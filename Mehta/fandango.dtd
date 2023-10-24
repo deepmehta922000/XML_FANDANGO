@@ -1,0 +1,15 @@
+<!ELEMENT theaters (heading, theater+)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT theater (theaterinfo, movie+)>
+<!ELEMENT theaterinfo (theatername, address)>
+<!ELEMENT theatername (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT movie (moviename, rating, duration, genre, showtimes)>
+<!ELEMENT moviename (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT showtimes (#PCDATA)>
+<!ATTLIST theater id ID #REQUIRED>
+<!ATTLIST movie id ID #REQUIRED>
+

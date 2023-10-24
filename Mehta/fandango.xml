@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="fandango.css"?>
+<!DOCTYPE theaters SYSTEM "fandango.dtd">
+<theaters>
+	<heading>FANDANGO</heading>
+	<theater id="t1">
+		<theaterinfo>
+			<theatername> Movies 10 </theatername>
+			<address> 2609 West Henrietta Road, Rochester, NY 14623 </address>
+		</theaterinfo>
+		<movie id="m11">
+			<moviename>THE NUN II</moviename>
+			<rating>PG-13</rating>
+			<duration> 1 hr 31 min </duration>
+            <genre>  Horror, Mystery, Thriller  </genre>
+			<showtimes> 12:25p | 2:50p | 5:10p | 7:30p </showtimes>
+		</movie>
+		<movie id="m12">
+			<moviename>OPPENHEIMER</moviename>
+			<rating>R</rating>
+			<duration>3 hr</duration>
+            <genre>  Biography, Drama, Historical Film, Suspence and Thriller  </genre>
+			<showtimes> 11:40a | 3:25p | 7:10p </showtimes>
+		</movie>
+		<movie id="m13">
+			<moviename>TEENAGE MUTANT NINJA TURTLES : MUTANT MAYHEM</moviename>
+			<rating>PG</rating>
+			<duration> 1 hr 39 min</duration>
+            <genre>  Action, Adventure, Animated, Kids and Family  </genre>
+			<showtimes>11:10p | 1:30p | 3:45p | 6.05p  </showtimes>
+		</movie>
+	</theater>
+	<theater id="t2">
+		<theaterinfo>
+			<theatername>AMC WEBSTER 12</theatername>
+			<address> 2190 Empire Blvd., Webster, NY 14580  </address>
+		</theaterinfo>
+		<movie id="m21">
+			<moviename>THE NUN II</moviename>
+			<rating>PG-13</rating>
+			<duration> 1 hr 31 min  </duration>
+            <genre>  Horror, Mystery, Thriller  </genre>
+			<showtimes> 4:00p | 6:00p | 6:45p | 8:45p | 9:30p </showtimes>
+		</movie>
+		<movie id="m22">
+			<moviename>THE HILL</moviename>
+			<rating>PG</rating>
+			<duration> 2 hr 6 min</duration>
+            <genre>  Biography, Drama, Sports  </genre>
+			<showtimes>2:00p | 4:25p | 6:50p | 9:15p  </showtimes>
+		</movie>
+		<movie id="m23">
+			<moviename>RETRIBUTION</moviename>
+			<rating>R</rating>
+			<duration> 1 hr 31 min</duration>
+            <genre>  Action, Adventure, Mystery and Thriller  </genre>
+			<showtimes>1:35p | 4:35p | 7:25p | 10:15p</showtimes>
+		</movie>
+	</theater>
+</theaters>
